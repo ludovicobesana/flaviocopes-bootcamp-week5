@@ -4,11 +4,11 @@ import posts from '../posts.json'
 export default function Blog() {
   return (
     <div>
-      <h1 class="text-2xl">Blog</h1>
+      <h1 className="text-2xl">Blog</h1>
       <Link href="/">
         home
       </Link>
-      
+    
       <ul>
        {Object.keys(posts).map((id, index) => {
          return (

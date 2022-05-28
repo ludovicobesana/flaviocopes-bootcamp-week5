@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <div>
-      <h1 class="text-2xl">Home page</h1>
+      <h1 className="text-2xl">Home page</h1>
       <Link href="/blog">
         blog
       </Link>
